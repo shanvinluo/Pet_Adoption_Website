@@ -1,0 +1,97 @@
+
+    li {
+      display: block;
+      color: black;
+      font-size: large;
+      padding: 16px;
+    }
+
+    .tag {
+      text-decoration: none;
+      color: white;
+    }
+
+    .tag:hover {
+      background-color: white;
+      color: black;
+      font-size: large;
+      transition: background-color 0.25s ease-in-out;
+    }
+
+    .tag:active {
+      color: black;
+    }
+
+
+    .list-items:hover {
+      background-color: white;
+    }
+
+
+
+    .list-items:hover .tag {
+      color: black;
+    }
+
+    .active {
+      background-color: green;
+      color: white;
+    }
+
+    #home-tag {
+      background-color: green;
+      text-decoration: none;
+    }
+
+    #home-text {
+      text-decoration: none;
+    }
+
+    #home-text:hover {
+      color: white;
+    }
+
+    #home-text:active {
+      color: white;
+    }
+
+
+.textbox {
+
+            margin-top: 3%;
+            background-color: lightgray;
+            border: 10px solid black;
+            width: 500px;
+            padding: 4%;
+            word-wrap: break-word;
+            color: black;;
+
+        }
+
+
+.textbox2 {
+          margin-top: 1%;
+          margin-left: 10%;
+          background-color: lightgrey;
+          border: 10px solid black;
+          width: 700px;
+          padding: 4%;
+          height:600px;
+          text-align: center;
+    
+          word-wrap: break-word;
+    
+        }
+    
+
+        .textbox3 {
+          float: inline-start;
+          margin-top: 10%;
+          background-color: lightgray;
+          border: 10px solid black;
+          width: 60%;
+          padding: 4%;
+          word-wrap: break-word;
+          font-size: x-large;
+    
+        }

@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>giveaway</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="Q8.css">
+
+</head>
+
+<body>
+    <table>
+        <tr>
+            <td><a href="Home.html">
+                    <img src="StableHeroes.jpg" alt="StableHeroes Logo" width="150" height="50"> </a></td>
+            <td>
+                <h1>Have a pet to give away?</h1>
+            </td>
+            <td>
+                <script src="Q8.js"></script>
+        <div style="color: green; font-size: large; font-weight: 300; font-style: italic;">
+                <script>;
+                const currentDate = getCurrentDate();
+                document.write(currentDate);
+                </script>
+                </div>
+              </td>
+        </tr>
+    </table>
+    <nav>
+        <ul style="display:flex; background-color:black; justify-content: space-between;">
+            <li class="list-items"><a href="Home.html" class="tag">Home</a></li>
+            <li class="list-items"><a href="BrowsePets.html" class="tag">Browse Available Pets</a></li>
+            <li class="list-items"><a href="DogCat.html" class="tag">Find a dog/cat</a></li>
+            <li class="list-items"><a href="Dogcare.html" class="tag">Dog Care</a></li>
+            <li class="list-items"><a href="Catcare.html" class="tag">Cat Care</a></li>
+            <li class="list-items" id="home-tag"><a href="giveaway.html" class="active" id="home-text">Have a pet to
+                    give away</a></li>
+            <li class="list-items"><a href="Contact.html" class="tag">Contact Us</a></li>
+        </ul>
+    </nav>
+    <form onsubmit="return validateFormGiveaway()">
+        <fieldset>
+            <legend>
+                <h2>Please fill in the following information to give a pet!</h2>
+            </legend>
+            <label>Is your pet a dog or a cat?</label> <label><input type="radio" name="Dog/Cat[]">Dog</label>
+            <label><input type="radio" name="Dog/Cat[]">Cat</label>
+            <label>
+                <br>
+                What breed is your pet? <select name="breed">
+                    <option>Siamese</option>
+                    <option>Persian</option>
+                    <option>Maine Coon
+                    </option>
+                    <option>Bengal</option>
+                    <option>Sphynx</option>
+                    <option>British Shorthair
+                    </option>
+                    <option>Abyssinian</option>
+                    <option>American Shorthair
+                    </option>
+                    <option>Scottish Fold
+                    </option>
+                    <option>Russian Blue
+                    </option>
+                    <option>Labrador Retriever
+                    </option>
+                    <option>German Shepherd
+                    </option>
+                    <option>Golden Retriever
+
+                    </option>
+                    <option>Bulldog</option>
+                    <option>Beagle</option>
+                    <option>Poodle
+                    </option>
+                    <option>Rottweiler</option>
+                    <option>Yorkshire Terrier
+
+                    </option>
+                    <option>Boxer
+                    </option>
+                    <option>Dachshund
+                    </option>
+                    <option>Mixed-breed cat</option>
+                    <option>Mixed-breed dog</option>
+                </select></label>
+            <br><br>
+            What age is your pet?
+            <select name="age">
+                    <option>Newborn</option>
+                    <option>1-4</option>
+                    <option>4-6
+                    </option>
+                    <option>6-8</option>
+                    <option>8-10</option>
+                    <option>11+
+                    </option>
+            </select>
+            <br><br>
+
+
+
+
+            <label>What gender is your pet?</label> <label><input type="radio" name="Gender[]">Male
+            </label><label><input type="radio" name="Gender[]">Female</label> <label><input type="radio"
+                    name="Gender[]">Doesn't matter</label>
+            <br><br>
+            <label>Does he get along with other pets?: </label><label><input type="radio" name="Friendly[]">Yes</label>
+            <label><input type="radio" name="Friendly[]">No</label>
+            <br><br>
+            <label>Is your pet suitable for a family with small children?:</label> <label><input type="radio"
+                    name="Family[]">Yes</label> <label><input type="radio" name="Family[]">No</label>
+
+            <br><br>
+            <label>Anything noteworthy about your pet that you want to brag about?<br><textarea rows="10" cols="50" name="required">
+                </textarea></label>
+            <br><br>
+            <label>Family Name?<input type="text" name="required"></label><br><label>Given name? <input type="text" name="required"></label>
+            <br><br>
+            <label>Email<input type="text" name="requiredEmail"></label>
+            <br>
+            <p>Thank you for participating in the survey! </p>
+            <input type="submit" value="Submit"> <input type="reset" value="Reset">
+        </fieldset>
+    </form>
+    <footer style="background-color: #333; padding: 20px; color: #fff; margin-bottom: 0%; flex-grow:1;">
+        <p>Copyright &copy; StableHeroes 2023</p>
+        <a href="#"
+            onclick="alert('Privacy/Disclaimer Statement: We promise to not sell or misuse your information and are not responsible for any incorrect information posted by users.')">Privacy/Disclaimer</a>
+    </footer>
+</body>
+
+</html>
