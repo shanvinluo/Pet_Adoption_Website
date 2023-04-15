@@ -193,3 +193,6 @@ function validateForm1() {
 document.getElementById("myForm").addEventListener("submit", validateForm1);
 
 
+function displayLogout(){
+  alert ('You have succesfully logged out. You can log back in by going to the Give a pet away page!');
+}

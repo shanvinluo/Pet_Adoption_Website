@@ -51,7 +51,7 @@ session_start();?>
               </td>
               <td><div class="box">
               <form action="logout.php">
- <input type="submit" id="logout" value="Logout" name="logout">
+ <input onclick="displayLogout()" type="submit" id="logout" value="Logout" name="logout">
 </form>
 </div>
 
