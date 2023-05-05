@@ -46,8 +46,8 @@ Once the user has successfully logged in, they can fill out the form and submit 
 ### Catcare
 Displays a page with information and links that shows information about how to take care of cats. 
 
-# Dogcare
+### Dogcare
 Displays a page with information and links that shows information about how to take care of dogs.
 
-# Contact us:
+### Contact us:
 Page with information about how to contact the company. 
