@@ -9,22 +9,22 @@
 <style media="screen">
 
 
-      .box input[type="submit"]{
-        background: transparent;
-        border: none;
-        outline: none;
-        color: #fff;
-        background: green;
-        padding: 10px 20px;
-        border-radius: 5px;
-        cursor:pointer;
-      }
-      .box input[type="submit"]:hover{
-        background-color: black;
-      }
+.box input[type="submit"]{
+  background: transparent;
+  border: none;
+  outline: none;
+  color: #fff;
+  background: green;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor:pointer;
+}
+.box input[type="submit"]:hover{
+  background-color: black;
+}
 
-    
-      </style>
+
+</style>
 </head>
 <body>
 <table>
@@ -43,13 +43,23 @@
                 </script>
                 </div>
               </td>
+              <td>
+                <script src="Q8.js"></script>
+        <div id="timeDate"style="color: green; font-size: large; font-weight: 300; font-style: italic;">
+                <script>
+                const currentDate = getCurrentDate();
+                document.write(currentDate);
+                </script>
+                </div>
+              </td>
               <td><div class="box">
-              <form action="logout.php">
+              <form action="logout.php" method="post">
  <input type="submit" id="logout" value="Logout" name="logout">
 </form>
 </div>
 
     </td>
+              
         </tr>
     </table>
     <nav>
